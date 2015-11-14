@@ -16,13 +16,16 @@ function Html({ title, description, body, debug }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <title>{title || config.title}</title>
         <meta name="description" content={description || config.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" href="/ratchet/css/ratchet.css" />
+        <link rel="stylesheet" href="/ratchet/css/ratchet-theme-ios.css" />
         <script src={'/app.js?' + new Date().getTime()} />
+        <script src="/ratchet/js/ratchet.js"></script>
       </head>
       <body>
-        <div id="app" dangerouslySetInnerHTML={{ __html: body }} />
+        <div id="app" class="content" dangerouslySetInnerHTML={{ __html: body }} />
         <GoogleAnalytics />
       </body>
     </html>
