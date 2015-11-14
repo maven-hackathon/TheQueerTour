@@ -8,51 +8,17 @@ import React, { Component, PropTypes } from 'react';
 import './Navigation.scss';
 import Link from '../Link';
 
-var ratchet = require('react-ratchet')
-
-console.log(ratchet)
-
-var Title = require('react-ratchet').Title;
-// var NavBar = require('react-ratchet').NavBar;
-
-
-class MyTitle extends React.Component {
-  render() {
-    return <new Title>Tripzzz!</Title>
-  }
-}
-
-
-// class MyNavBar extends React.Component {
-//   render() {
-//     return (
-//         <NavBar>
-//             <Title>Hello World!</Title>
-//         </NavBar>
-//     );
-//   }
-// }
-// class MyTitle extends React.Component {
-//   render() {
-//     return <Title>Tripz!</Title>
-//   }
-// }
-
-function MyNavBar(){
-  return(
-    <MyTitle />
-    // <MyTitle />
-    // <NavBar>
-    //     Hello World!
-    // </NavBar>
-  )
-}
-
 function Navigation() {
   return (
-    <MyNavBar />
+    <header className="bar bar-nav">
+      <button className="btn btn-link btn-nav pull-left">
+        <span className="icon icon-bars"></span>
+      </button>
+      <h1 className="title">TheQueerTour</h1>
+    </header>
   );
 }
+
 /*
 function Navigation() {
   return (
