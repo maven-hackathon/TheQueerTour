@@ -1,0 +1,20 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+@import '../variables.scss';
+
+.splash-image {
+  width: 100%;
+  display: block;
+}
+
+p.app-description {
+  margin: 35px 10px;
+  margin-bottom: 50px;
+  &.additional-b-margin {
+    margin-bottom: 75px;
+  }
+}

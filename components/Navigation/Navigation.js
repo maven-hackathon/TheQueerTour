@@ -10,12 +10,12 @@ import Link from '../Link';
 
 function Navigation() {
   return (
-    <header className="bar bar-nav">
+    <div>
       <button className="btn btn-link btn-nav pull-left">
         <span className="icon icon-bars"></span>
       </button>
-      <h1 className="title">TheQueerTour</h1>
-    </header>
+      <h1 className="title">The Queer Tour</h1>
+    </div>
   );
 }
 
