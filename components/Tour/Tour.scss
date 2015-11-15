@@ -1,0 +1,56 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+@import '../variables.scss';
+
+.Tour {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0 5em 0;
+  list-style: none;
+  justify-content: flex-end;
+
+}
+
+.bar.bar-nav-expanded {
+  height:120px;
+
+  h1.title, span.label, span.address {
+    display:block;
+    position: static;
+    text-align: left;
+    margin-left: 2rem;
+  }
+  h1.title {
+    font-size: xx-large;
+    font-weight: 300;
+  }
+  span.label {
+    margin-top:1em;
+    opacity:0.35;
+    font-weight: 700;
+  }
+  span.address {
+
+  }
+}
+
+.Tour-item {
+  padding: 0 2em;
+}
+
+.Tour-link {
+  padding: 0.5em 1em;
+  color: $brand-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 3px solid $brand-color;
+    color: $text-color;
+  }
+}

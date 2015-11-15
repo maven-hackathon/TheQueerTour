@@ -7,11 +7,12 @@
 import React, { PropTypes } from 'react';
 import './Layout.scss';
 import Navigation from '../Navigation';
+import Tour from '../Tour';
 
 function Layout({ children }) {
   return (
     <div className="Layout">
-      <Navigation />
+      <Tour />
       {children}
     </div>
   );

@@ -21,6 +21,7 @@ function Html({ title, description, body, debug }) {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
         <link rel="stylesheet" href="/ratchet/css/ratchet.css" />
         <link rel="stylesheet" href="/ratchet/css/ratchet-theme-ios.css" />
+        <link rel="stylesheet" href="/css/guidetour.css" />
         <script src={'/app.js?' + new Date().getTime()} />
         <script src="/ratchet/js/ratchet.js"></script>
       </head>
