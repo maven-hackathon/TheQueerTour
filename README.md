@@ -5,6 +5,10 @@ A self-guided tour of the Castro neighborhood of San Francisco, Calif., begun at
 ### How does this work?
 The locations are pulled from a [Google spreadsheet](https://docs.google.com/spreadsheets/d/1no8Hu1HQykrnwb-vwRo8fDElhht7Sx3YWI0zOqtxWgM/edit?ts=564780c2#gid=0), run through CartoDB, and displayed via this ReactJS app.
 
+### What else came out of this hackathon?
+ * [maven-converter](https://github.com/maven-hackathon/maven-converter), a simple JS front-end that copies QUEER Tour data from Google Spreadsheet data into Parse
+ * [QUEER-iOS](https://github.com/maven-hackathon/QUEER-iOS), a bangin' iOS version of this tour that uses [maven-converter](https://github.com/maven-hackathon/maven-converter)
+
 ### I want to help! What can I do?
 Please see the [issue queue](https://github.com/maven-hackathon/TheQueerTour/issues) and [UX documentation](https://github.com/maven-hackathon/TheQueerTour/blob/master/QueerTour.pptx).
 
