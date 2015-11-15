@@ -5,14 +5,24 @@
  */
 
 import React, { Component } from 'react';
+import Splash from '../components/Splash';
+import Navigation from '../components/Navigation';
+import BottomTab from '../components/BottomTab';
 
 export default class extends Component {
 
   render() {
     return (
       <div>
-        <h1>Home Page</h1>
-        <p>Coming soon.</p>
+        <header className="bar bar-nav">
+          <Navigation />
+        </header>
+        <div className="content">
+          <Splash />
+        </div>
+        <nav className="bar bar-tab">
+          <BottomTab />
+        </nav>
       </div>
     );
   }

@@ -7,12 +7,14 @@
 import React, { PropTypes } from 'react';
 import './Layout.scss';
 import Navigation from '../Navigation';
+import Landmark from '../Landmark';
 
 function Layout({ children }) {
   return (
     <div className="Layout">
-      <Navigation />
-      {children}
+      <div>
+       {children}
+      </div>
     </div>
   );
 }
